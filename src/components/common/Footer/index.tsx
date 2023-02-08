@@ -6,7 +6,7 @@ import { useAppDispatch } from '@/store'
 import { openCookieBanner } from '@/store/popupSlice'
 import { AppRoutes } from '@/config/routes'
 import packageJson from '../../../../package.json'
-import AppstoreButton from '../AppStoreButton'
+// import AppstoreButton from '../AppStoreButton'
 import ExternalLink from '../ExternalLink'
 
 const footerPages = [AppRoutes.welcome, AppRoutes.settings.index]
@@ -28,28 +28,28 @@ const Footer = (): ReactElement | null => {
     <footer className={css.container}>
       <ul>
         <li>
-          <Typography variant="caption">&copy;2022–{new Date().getFullYear()} Safe Ecosystem Foundation</Typography>
+          <Typography variant="caption">&copy;2022–{new Date().getFullYear()} IoTeX</Typography>
         </li>
         <li>
-          <ExternalLink noIcon href="https://safe.global/terms">
-            Terms
+          <ExternalLink noIcon href="https://iotex.io/">
+            IoTeX Network
           </ExternalLink>
         </li>
         <li>
-          <ExternalLink noIcon href="https://safe.global/privacy">
-            Privacy
+          <ExternalLink noIcon href="https://ecosystem.iotex.io/">
+            IoTeX Ecosystem
           </ExternalLink>
         </li>
-        <li>
-          <ExternalLink noIcon href="https://safe.global/licenses">
-            Licenses
-          </ExternalLink>
-        </li>
-        <li>
-          <ExternalLink noIcon href="https://safe.global/imprint">
-            Imprint
-          </ExternalLink>
-        </li>
+        {/*<li>*/}
+        {/*  <ExternalLink noIcon href="https://safe.global/licenses">*/}
+        {/*    Licenses*/}
+        {/*  </ExternalLink>*/}
+        {/*</li>*/}
+        {/*<li>*/}
+        {/*  <ExternalLink noIcon href="https://safe.global/imprint">*/}
+        {/*    Imprint*/}
+        {/*  </ExternalLink>*/}
+        {/*</li>*/}
         <li>
           <ExternalLink noIcon href="https://safe.global/cookie">
             Cookie Policy
@@ -64,9 +64,9 @@ const Footer = (): ReactElement | null => {
             v{packageJson.version}
           </ExternalLink>
         </li>
-        <li>
-          <AppstoreButton placement="footer" />
-        </li>
+        {/*<li>*/}
+        {/*  <AppstoreButton placement="footer" />*/}
+        {/*</li>*/}
       </ul>
     </footer>
   )
