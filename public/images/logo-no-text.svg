@@ -1,1 +1,41 @@
-<svg width="384" height="384" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.757 11.998h-2.485c-.742 0-1.343.579-1.343 1.293v3.47c0 .714-.602 1.293-1.344 1.293H6.699c-.743 0-1.344.578-1.344 1.292v2.391c0 .714.601 1.293 1.344 1.293h10.458c.742 0 1.335-.579 1.335-1.293V19.82c0-.714.602-1.22 1.344-1.22h1.92c.743 0 1.344-.58 1.344-1.293v-4.03c0-.714-.601-1.278-1.343-1.278ZM5.355 7.249c0-.714.6-1.293 1.343-1.293h9.88c.743 0 1.344-.579 1.344-1.293v-2.39c0-.714-.601-1.293-1.344-1.293H6.125c-.742 0-1.343.579-1.343 1.293v1.842c0 .714-.602 1.292-1.344 1.292H1.526C.784 5.407.182 5.986.182 6.7v4.034c0 .714.604 1.264 1.346 1.264h2.485c.743 0 1.344-.579 1.344-1.293L5.355 7.25ZM10.472 9.485h2.387c.778 0 1.409.608 1.409 1.356v2.296c0 .748-.632 1.356-1.41 1.356h-2.386c-.778 0-1.409-.608-1.409-1.356v-2.296c0-.749.632-1.356 1.409-1.356Z" fill="currentColor"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="-439.823002%" y1="-103.592148%" x2="1792.80497%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#42FFB1" offset="0%"></stop>
+            <stop stop-color="#00D3DC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-433.83134%" y1="-103.592148%" x2="1771.48646%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#42FFB1" offset="0%"></stop>
+            <stop stop-color="#00D3DC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(85.000000, 122.000000)" fill-rule="nonzero">
+            <polygon id="Shape" fill="url(#linearGradient-1)" points="498.646814 0 498.646814 188 661.646814 94.1318373"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-1)" opacity="0.9" points="662.646814 94 662.646814 282 825.646814 187.868163"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-1)" opacity="0.8" points="498.646814 188 498.646814 376 661.646814 282.131837"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-1)" opacity="0.8" points="662.646814 282 662.646814 470 825.646814 375.868163"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-1)" opacity="0.8" points="498.646814 375 498.646814 563 661.646814 469.131837"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-1)" points="662.646814 469 662.646814 657 825.646814 562.868163"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-1)" opacity="0.4" points="78.6468144 181 78.6468144 369 241.646814 274.868163"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-2)" opacity="0.2" points="285.646814 252 285.646814 440 447.646814 346.131837"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-1)" opacity="0.3" points="164.646814 369 164.646814 557 327.646814 462.868163"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-2)" opacity="0.9" points="270.646814 511 270.646814 699 432.646814 604.868163"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-2)" opacity="0.7" points="498.646814 592 498.646814 780 660.646814 685.868163"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-2)" opacity="0.9" points="312.646814 159 312.646814 347 474.646814 253.131837"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-1)" opacity="0.8" points="499.646814 0 499.646814 188 336.646814 94.1318373"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-1)" opacity="0.6" points="311.646814 80 311.646814 268 148.646814 173.868163"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-1)" opacity="0.6" points="473.646814 173 473.646814 361 310.646814 266.868163"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-1)" opacity="0.95" points="283.646814 252 283.646814 440 120.646814 346.131837"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-2)" opacity="0.6" points="498.646814 375 498.646814 563 336.646814 469.131837"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-1)" opacity="0.55" points="163.646814 419 163.646814 607 0.646814404 512.868163"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-1)" points="825.646814 188 825.646814 376 662.646814 282.131837"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-1)" opacity="0.95" points="661.646814 282 661.646814 470 498.646814 375.868163"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-1)" opacity="0.9" points="825.646814 375 825.646814 563 662.646814 469.131837"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-1)" opacity="0.7" points="661.646814 469 661.646814 657 498.646814 562.868163"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-1)" opacity="0.4" points="464.646814 548 464.646814 736 301.646814 642.131837"></polygon>
+            <polygon id="Shape" fill="url(#linearGradient-1)" points="661.646814 94 661.646814 282 498.646814 187.868163"></polygon>
+        </g>
+    </g>
+</svg>
