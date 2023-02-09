@@ -51,10 +51,10 @@ const Footer = (): ReactElement | null => {
         {/*  </ExternalLink>*/}
         {/*</li>*/}
         <li>
-          <ExternalLink noIcon href="https://safe.global/cookie">
-            Cookie Policy
-          </ExternalLink>
-          &nbsp;&mdash;&nbsp;
+          {/*<ExternalLink noIcon href="https://safe.global/cookie">*/}
+          {/*  Cookie Policy*/}
+          {/*</ExternalLink>*/}
+          {/*&nbsp;&mdash;&nbsp;*/}
           <Link href="#" onClick={onCookieClick}>
             Preferences
           </Link>
