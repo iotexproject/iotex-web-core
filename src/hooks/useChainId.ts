@@ -9,7 +9,8 @@ import { prefixedAddressRe } from '@/utils/url'
 import useWallet from './wallets/useWallet'
 import useChains from './useChains'
 
-const defaultChainId = IS_PRODUCTION ? chains.iotx : chains.iotxtest
+// FIXME: make iotx a default chain id for production
+const defaultChainId = IS_PRODUCTION ? chains.iotxtest : chains.iotxtest
 
 // Use the location object directly because Next.js's router.query is available only in an effect
 const getLocationQuery = (): ParsedUrlQuery => {
