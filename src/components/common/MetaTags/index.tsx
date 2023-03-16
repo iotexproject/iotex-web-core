@@ -11,14 +11,14 @@ const MetaTags = ({ prefetchUrl }: { prefetchUrl: string }) => (
     <meta name="description" content={descriptionText} />
 
     {/* Social sharing */}
-    <meta name="og:image" content="https://staging.safe.iotex.io/images/social-share.png" />
+    <meta name="og:image" content="https://safe.iotex.io/images/social-share.png" />
     <meta name="og:description" content={descriptionText} />
     <meta name="og:title" content={titleText} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@iotex_io" />
     <meta name="twitter:title" content={titleText} />
     <meta name="twitter:description" content={descriptionText} />
-    <meta name="twitter:image" content="https://staging.safe.iotex.io/images/social-share.png" />
+    <meta name="twitter:image" content="https://safe.iotex.io/images/social-share.png" />
 
     {/* CSP */}
     <meta httpEquiv="Content-Security-Policy" content={ContentSecurityPolicy} />
