@@ -9,7 +9,7 @@ import { logError, Errors } from '@/services/exceptions'
 import { trackEvent, WALLET_EVENTS } from '@/services/analytics'
 import { WALLET_KEYS } from '@/hooks/wallets/wallets'
 import { useInitPairing } from '@/services/pairing/hooks'
-import { isWalletUnlocked, WalletNames } from '@/utils/wallets'
+import { isWalletUnlocked /*, WalletNames*/ } from '@/utils/wallets'
 
 export type ConnectedWallet = {
   label: string
@@ -97,9 +97,11 @@ export const connectWallet = async (onboard: OnboardAPI, options?: Parameters<On
 
   // On mobile, automatically choose WalletConnect
   if (!options && isMobile()) {
+    /*
     options = {
       autoSelect: WalletNames.WALLET_CONNECT,
     }
+    */
   }
 
   try {
