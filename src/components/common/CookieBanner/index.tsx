@@ -1,5 +1,6 @@
-import type { ReactElement } from 'react'
-import { useEffect } from 'react'
+import { useEffect, type ReactElement } from 'react'
+// import Link from 'next/link'
+// import MUILink from '@mui/material/Link'
 import { Button, Checkbox, FormControlLabel, Typography, Paper, SvgIcon } from '@mui/material'
 import WarningIcon from '@/public/images/notifications/warning.svg'
 import { useForm } from 'react-hook-form'
@@ -9,7 +10,7 @@ import { selectCookies, CookieType, saveCookieConsent } from '@/store/cookiesSli
 import { selectCookieBanner, openCookieBanner, closeCookieBanner } from '@/store/popupSlice'
 
 import css from './styles.module.css'
-// import ExternalLink from '../ExternalLink'
+// import { AppRoutes } from '@/config/routes'
 
 const COOKIE_WARNING: Record<CookieType, string> = {
   [CookieType.NECESSARY]: '',
